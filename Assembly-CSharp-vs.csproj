@@ -5,7 +5,7 @@
 	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
 	<ProductVersion>10.0.20506</ProductVersion>
 	<SchemaVersion>2.0</SchemaVersion>
-	<ProjectGuid>{5E84F3E4-EE2E-0E79-FBA9-E14259FC0E2B}</ProjectGuid>
+	<ProjectGuid>{7A050539-D38E-9E01-ACF1-D21AF10A2C92}</ProjectGuid>
 	<OutputType>Library</OutputType>
 	<AppDesignerFolder>Properties</AppDesignerFolder>
 	<RootNamespace></RootNamespace>
@@ -89,9 +89,14 @@
      <Compile Include="Assets\LeapMotion\Scripts\Utils\StretchToScreen.cs" />
      <Compile Include="Assets\LeapMotion\Scripts\Utils\TriggerDrawing.cs" />
      <Compile Include="Assets\LeapMotion\Scripts\Utils\Utils.cs" />
+     <Compile Include="Assets\Scripts\Classifier.cs" />
      <Compile Include="Assets\Scripts\ClickCube.cs" />
      <Compile Include="Assets\Scripts\ComputerHandController.cs" />
      <Compile Include="Assets\Scripts\Game.cs" />
+     <Compile Include="Assets\Scripts\GameMechanic.cs" />
+     <Compile Include="Assets\Scripts\GapRecord.cs" />
+     <Compile Include="Assets\Scripts\GestureClassifier.cs" />
+     <Compile Include="Assets\Scripts\HandRecord.cs" />
      <Compile Include="Assets\Scripts\Test1.cs" />
      <None Include="Assets\LeapMotion\Resources\LeapIRUndistorted.shader" />
      <None Include="Assets\Plugins\donotdelete.txt" />
@@ -116,7 +121,7 @@
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
  <Reference Include="LeapCSharp.NET3.5">
- <HintPath>/Users/danilofaria/Desktop/Danilo/unity/Final/RPSSL/Assets/Plugins/LeapCSharp.NET3.5.dll</HintPath>
+ <HintPath>/Users/johnfulgoni/LeapMotion/rpssl_leapmotion/Assets/Plugins/LeapCSharp.NET3.5.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.iOS.Extensions.Xcode">
  <HintPath>/Applications/Unity/Unity.app/Contents/PlaybackEngines/iossupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
