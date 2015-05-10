@@ -72,7 +72,7 @@ public class HandController : MonoBehaviour {
     leap_controller_ = new Controller();
   }
 
-  void Start() {
+	virtual protected void Start() {
     // Initialize hand lookup tables.
     hand_graphics_ = new Dictionary<int, HandModel>();
     hand_physics_ = new Dictionary<int, HandModel>();
@@ -220,14 +220,14 @@ public class HandController : MonoBehaviour {
     return leap_controller_;
   }
 
-  public Frame GetFrame() {
+  public virtual Frame GetFrame() {
     if (enableRecordPlayback && recorder_.state == RecorderState.Playing)
       return recorder_.GetCurrentFrame();
 
     return leap_controller_.Frame();
   }
 
-  void Update() {
+	virtual protected void Update() {
     if (leap_controller_ == null)
       return;
     
