@@ -8,23 +8,23 @@ public class GameMechanic {
 
 	//No Player - Test Mode
 	public GameMechanic(){
-		this.player1 = Random.Range (0, 5) + 1;
-		this.player2 = Random.Range (0, 5) + 1;
+//		this.player1 = Random.Range (0, 5) + 1;
+//		this.player2 = Random.Range (0, 5) + 1;
 	}
 
-	//Single Player
-	public GameMechanic(int player1){
-		this.player1 = player1;
-		this.player2 = Random.Range (0, 5) + 1;
-	}
+//	//Single Player
+//	public GameMechanic(int player1){
+//		this.player1 = player1;
+//		this.player2 = Random.Range (0, 5) + 1;
+//	}
+//
+//	//Two Player
+//	public GameMechanic(int player1, int player2){
+//		this.player1 = player1;
+//		this.player2 = player2;
+//	}
 
-	//Two Player
-	public GameMechanic(int player1, int player2){
-		this.player1 = player1;
-		this.player2 = player2;
-	}
-
-	public int decision(){
+	public int decision(int p1, int p2){
 		/**
 		 * Returning a -1 means that one of the gestures is invalid
 		 * 	 - won't happen with nearest neighbor or KNN
@@ -33,8 +33,8 @@ public class GameMechanic {
 		 * Returning a 2 means Player 2 wins (and Player 1 loses)
 		 * */
 
-		int p1 = this.player1;
-		int p2 = this.player2;
+//		int p1 = this.player1;
+//		int p2 = this.player2;
 
 		//rock crushes scissors and lizard
 		//paper covers rock and disproves spock
@@ -48,12 +48,12 @@ public class GameMechanic {
 		//0 means draw
 		//1 means 1 wins
 		//2 means 2 wins
-		if (p1 == 1) {
+		if (p1 == 1) { // Rock
 			switch (p2) {
 			case 1:
 				return 0; //draw
 			case 2:
-				return 2; //rock losed to paper
+				return 2; //rock loses to paper
 			case 3:
 				return 1; //rock beats scissors
 			case 4:
@@ -64,7 +64,7 @@ public class GameMechanic {
 				return -1;
 			}
 		}//end rock
-		else if (p1 == 2) {
+		else if (p1 == 2) { // Paper
 			switch (p2) {
 			case 1:
 				return 1; //paper beats rock
@@ -80,7 +80,7 @@ public class GameMechanic {
 				return -1;
 			}
 		}//end paper
-		else if (p1 == 3) {
+		else if (p1 == 3) { // Scissors
 			switch (p2) {
 			case 1:
 				return 2; //scissors loses to rock
@@ -96,7 +96,7 @@ public class GameMechanic {
 				return -1;
 			}
 		}//end scissors
-		else if (p1 == 4) {
+		else if (p1 == 4) { // Lizard
 			switch (p2) {
 			case 1:
 				return 2; //lizard loses to rock
@@ -112,7 +112,7 @@ public class GameMechanic {
 				return -1;
 			}
 		}//end lizard
-		else if (p1 == 5) {
+		else if (p1 == 5) { // Spock
 			switch (p2) {
 			case 1:
 				return 1; //spock beats rock
@@ -178,6 +178,6 @@ public class GameMechanic {
 	}
 
 	public void printPlayers(){
-		Debug.Log ("Game Results: " + player1 + ", " + player2);
+//		Debug.Log ("Game Results: " + player1 + ", " + player2);
 	}
 }

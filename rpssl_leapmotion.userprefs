@@ -1,0 +1,17 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Game.cs">
+    <Files>
+      <File FileName="Assets/Scripts/Game.cs" Line="17" Column="2" />
+      <File FileName="Assets/Scripts/ComputerHandController.cs" Line="54" Column="5" />
+      <File FileName="Assets/Scripts/GameMechanic.cs" Line="79" Column="12" />
+      <File FileName="Assets/Scripts/ClickCube.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Classifier.cs" Line="305" Column="29" />
+      <File FileName="Assets/LeapMotion/Scripts/HandController.cs" Line="310" Column="15" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

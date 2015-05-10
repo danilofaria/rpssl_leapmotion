@@ -93,6 +93,7 @@
      <Compile Include="Assets\Scripts\ClickCube.cs" />
      <Compile Include="Assets\Scripts\ComputerHandController.cs" />
      <Compile Include="Assets\Scripts\Game.cs" />
+     <Compile Include="Assets\Scripts\Game2Players.cs" />
      <Compile Include="Assets\Scripts\GameMechanic.cs" />
      <Compile Include="Assets\Scripts\GapRecord.cs" />
      <Compile Include="Assets\Scripts\GestureClassifier.cs" />
@@ -121,7 +122,7 @@
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
  <Reference Include="LeapCSharp.NET3.5">
- <HintPath>/Users/johnfulgoni/LeapMotion/rpssl_leapmotion/Assets/Plugins/LeapCSharp.NET3.5.dll</HintPath>
+ <HintPath>/Users/danilofaria/Desktop/Danilo/unity/f2/rpssl_leapmotion/Assets/Plugins/LeapCSharp.NET3.5.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.iOS.Extensions.Xcode">
  <HintPath>/Applications/Unity/Unity.app/Contents/PlaybackEngines/iossupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>

@@ -302,7 +302,7 @@ public class Classifier {
 
 
 	void readData(){
-		string filePath = "Data/relative2.csv";
+		string filePath = "Assets/Data/relative2.csv";
 		string[] values = File.ReadAllText(filePath).Split(',');
 		//right now using relative distance between tips
 
@@ -318,7 +318,7 @@ public class Classifier {
 	}
 
 	void readLearning(){
-		string filePath = "Data/learning2.csv";
+		string filePath = "Assets/Data/learning2.csv";
 		string[] values = File.ReadAllText(filePath).Split(',');
 		//right now using relative distance between tips
 

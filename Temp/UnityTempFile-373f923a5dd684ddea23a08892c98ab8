@@ -105,6 +105,7 @@
 'Assets/Scripts/Game.cs'
 'Assets/Scripts/GameMechanic.cs'
 'Assets/Scripts/GapRecord.cs'
+'Assets/Scripts/GestureClassifier.cs'
 'Assets/Scripts/HandRecord.cs'
 'Assets/Scripts/Test1.cs'
 -r:'/Applications/Unity/Unity.app/Contents/Frameworks/Mono/lib/mono/unity/System.Runtime.Serialization.dll'

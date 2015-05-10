@@ -10,11 +10,9 @@ using Leap;
 
 // Overall Controller object that will instantiate hands and tools when they appear.
 public class ComputerHandController : HandController {
-
-
+	
 	private List<Frame> frames;
 	private int framesCount;
-//	
 
 	public float initialZ = 250;
 	public float endZ = 0;
